@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+background-position: center;
+background-size: cover;
+text-align: center;
+padding: 13rem 0;
+opacity: 0.8;
+}
+.first h1{
+    font-size: 88px;
+    color: #212529;
+}
+.first h3{
+    font-size: 28px;
+    color: #212529;
+    margin-bottom: 45px;
+}
+.first a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1d809f;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.second{
+    text-align: center;
+    padding: 85px 0;
+
+}
+.second h2{
+    font-size: 32px;
+    color: #212529;
+}
+.second p{
+    font-size: 20px;
+    color: #212529;
+    margin: 15px 0px 45px 0px;
+}
+.second a{
+    color: #155d74;
+}
+
+.second .a1{
+    text-decoration: none;
+    color: #fff;
+    background-color: #212529;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.thirt{
+    background-color: #17a2b8;
+    padding: 6rem;
+    overflow: hidden;
+}
+.thirt .thirt-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.thirt .thirt-text h3{
+    color: #ecb807;
+    font-size: 1rem;
+}
+.thirt .thirt-text h2{
+    color: #fff;
+    font-size: 3rem;
+}
+.thirt .icons .box{
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+.thirt .icons .box h4{
+    font-size: 24px;
+}
+.thirt .icons .box p{
+    font-size: 16px;
+}
+.thirt i{
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 25px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #1d809f;
+}
+.phone{
+    padding: 25px 30px !important;
+}
+.thirt .box h4{
+    color: #fff;
+}
+.thirt .box p{
+    color: #fff;
+}
+.four{
+    text-align: center;
+    padding: 13rem;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 12rem 0;
+    
+}
+.four h2{
+    font-size: 3.5rem;
+    color: #212529;
+    margin-bottom: 50px;
+}
+.four a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1d809f;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;   
+}
+.five{
+    padding: 5rem;
+    overflow: hidden;
+
+}
+.five .five-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.five .five-text h3{
+    color: #ecb807;
+    font-size: 1rem;
+}
+.five .five-text h2{
+    color: #212529;
+    font-size: 3rem;
+}
+.five .box{
+    float: left;
+    width: 50%;
+    position: relative;
+    transition: .5s;
+
+}
+.five .box h3{
+    font-size: 32px;
+}
+.five .box:hover{
+    transform: scale(.8);
+}
+.five .image{
+    width: 80%;
+    margin: auto;
+}
+.five .box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.five .box-text{
+    position: absolute;
+    color: #fff;
+    bottom: 20%;
+    left: 10%;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    top: 0;
+    left: 0;
+    background-color: rgba(40, 40, 197, 0.363);
+    opacity: 0;
+}
+.five .box:hover .overlay{
+    opacity: 0.8;
+}
+.six{
+    background-color: #1d809f;
+    text-align: center;
+    padding: 7rem;
+}
+.six h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.six .b1{
+    text-decoration: none;
+    color: #212529;
+    background-color:#fff;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px; 
+    margin-right: 20px;
+}
+.six .b2{
+    text-decoration: none;
+    color: #fff;
+    background-color: #212529;;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px; 
+    
+}
+.social{
+    text-align: center;
+}
+.social i{
+    background-color: #1d809f;
+    border-radius: 100%;
+    padding: 25px;
+    margin: 0px 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.social p{
+    font-size: 15px;
+}
